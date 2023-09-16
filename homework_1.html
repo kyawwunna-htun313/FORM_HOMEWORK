@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Homework for Form_1</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Your details</legend>
+          <ol>
+            <div id="name_input">
+              <li>
+                <label for="username"> Name </label>
+                <input
+                  type="text"
+                  id="username"
+                  name="username"
+                  autocomplete="off"
+                  placeholder="First and last name"
+                />
+              </li>
+            </div>
+            <div id="Email_input">
+              <li>
+                <label for="email"> Email </label>
+                <input
+                  type="email"
+                  id="username"
+                  name="email"
+                  autocomplete="off"
+                  placeholder="example@domain.com"
+                />
+              </li>
+            </div>
+            <div id="Phone_input">
+              <li>
+                <label for="phone"> Phone </label>
+                <input
+                  type="number"
+                  id="phone"
+                  name="phone"
+                  autocomplete="off"
+                  placeholder="Eg. +447500000000000"
+                />
+              </li>
+            </div>
+          </ol>
+        </fieldset>
+
+        <fieldset>
+          <legend>Delivery Address</legend>
+          <ol>
+            <div id="_address">
+              <li>
+                <label for="address"> Address </label>
+                <textarea
+                  cols="30"
+                  rows="5"
+                  id="address"
+                  name="address"
+                  autocomplete="off"
+                ></textarea>
+              </li>
+            </div>
+            <div id="post_code">
+              <li>
+                <label for="post_code"> Post Code </label>
+                <input type="number" id="code" name="code" autocomplete="off" />
+              </li>
+            </div>
+            <div id="Country">
+              <li>
+                <label for="Country"> Country </label>
+                <input
+                  type="text"
+                  id="country"
+                  name="country"
+                  autocomplete="off"
+                />
+              </li>
+            </div>
+          </ol>
+        </fieldset>
+        <fieldset>
+          <legend>Card details</legend>
+          <ol>
+            <div id="Card_Type">
+              <li>
+                <div id="detail_card_type">
+                  <fieldset>
+                    <legend>Card Type</legend>
+                    <ol>
+                      <li><input type="radio" name="type" id="" />VISA</li>
+                      <li><input type="radio" name="type" id="" />AmEx</li>
+                      <li>
+                        <input type="radio" name="type" id="" />Mastercard
+                      </li>
+                    </ol>
+                  </fieldset>
+                </div>
+              </li>
+            </div>
+            <div id="Card_number">
+              <li>
+                <label for="card_number"> Card_number</label>
+                <input type="number" min="0" />
+              </li>
+            </div>
+            <div id="Security_code">
+              <li>
+                <label for="Security_code">Security Code</label>
+                <input type="number" min="0" />
+              </li>
+            </div>
+            <div id="Name_on_Card">
+              <li>
+                <label for="Name_on_Card">Name on card</label>
+                <input type="text" placeholder="Exact name as on the card" />
+              </li>
+            </div>
+          </ol>
+        </fieldset>
+        <fieldset>
+          <button>Buy It</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
