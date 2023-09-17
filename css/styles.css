@@ -1,57 +1,68 @@
 * {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  .container {
-    width: 80%;
-    margin: 20px auto;
-  }
-  form {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  fieldset {
-    margin-top: 5px;
-  }
-  input {
-    margin-left: 2px;
-  }
-  #name_input,
-  #_address,
-  #Card_Type,
-  #detail_card_type {
-    margin-left: 50px;
-    margin-top: 20px;
-  }
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+form {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+fieldset {
+  margin-top: 5px;
+  border: 0px;
+}
+input {
+  margin-left: 2px;
+}
 
-  #Email_input,
-  #post_code,
-  #Card_number,
-  #Security_code {
-    margin-left: 50px;
-    margin-top: 10px;
-  }
-  #Phone_input,
-  #Country,
-  #Name_on_Card {
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
-  #detail_card_type ol {
-    margin-left: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  #detail_card_type li {
-    margin-top: 5px;
-  }
-  button {
-    border-radius: 20px;
-    padding: 5px;
-    margin: 10px;
-  }
+#name_input,
+#_address,
+/* #Card_Type, */
+#detail_card_type {
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+#Email_input,
+#post_code,
+#Card_number,
+#Security_code {
+  margin-left: 50px;
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid black;
+}
+#Phone_input,
+#Country,
+#Name_on_Card {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 1px solid black;
+}
+#detail_card_type ol {
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#detail_card_type li {
+  margin-top: 5px;
+}
+
+input[type="radio"] {
+  width: 25px;
+}
+button {
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px;
+}

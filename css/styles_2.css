@@ -1,0 +1,129 @@
+body {
+  background-color: #1c1427;
+  color: #ccffbd;
+  padding: 10px;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+}
+legend {
+  margin-left: 50px;
+  font-size: 25px;
+  font-family: "Exo 2", sans-serif;
+}
+
+ol {
+  list-style-type: none;
+}
+
+::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+#name_input,
+#_address,
+/* #Card_Type, */
+#detail_card_type {
+  background: #40394a;
+  border-radius: 4px;
+}
+
+label[for="address"] {
+  vertical-align: 50px;
+}
+
+#Email_input,
+#post_code,
+#Card_number,
+#Security_code {
+  background: #40394a;
+  border-radius: 4px;
+}
+
+#Phone_input,
+#Country,
+#Name_on_Card {
+  background: #40394a;
+  border-radius: 4px;
+}
+
+input {
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  color: #1c1427;
+  margin-left: 30px;
+  width: 500px;
+  height: 50px;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+input[type="text"],
+input[type="number"] {
+  margin-left: 105px;
+}
+input[name="email"] {
+  margin-left: 105px;
+}
+textarea {
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  color: #1c1427;
+  margin-left: 105px;
+  width: 500px;
+  border-radius: 3px;
+  opacity: 0.8;
+}
+
+input[name="code"] {
+  margin-left: 85px;
+}
+
+input[name="country"] {
+  margin-left: 105px;
+}
+
+#card {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+input[type="radio"] {
+  margin-left: 105px;
+  /* width: 500px; */
+}
+
+input[id="visa"],
+input[id="amex"],
+input[id="mastercard"] {
+  vertical-align: -35px;
+}
+img {
+  margin: 0px 8px;
+}
+input[name="position"] {
+  margin-left: 40px;
+}
+
+.button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 10px;
+}
+.btn {
+  border: 1px solid #7eca9c;
+  padding: 10px 30px;
+  color: #ccffbd;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+.btn:hover {
+  background-color: #ccffbd;
+  color: #000;
+}
+#last {
+  padding-bottom: 70px;
+  padding-top: 40px;
+}

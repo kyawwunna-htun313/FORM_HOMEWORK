@@ -3,7 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/styles_2.css" />
     <title>Homework for Form_1</title>
   </head>
   <body>
@@ -12,7 +19,7 @@
         <fieldset>
           <legend>Your details</legend>
           <ol>
-            <div id="name_input">
+            <div id="name_input" class="position_adjust">
               <li>
                 <label for="username"> Name </label>
                 <input
@@ -92,12 +99,38 @@
               <li>
                 <div id="detail_card_type">
                   <fieldset>
-                    <legend>Card Type</legend>
-                    <ol>
-                      <li><input type="radio" name="type" id="" />VISA</li>
-                      <li><input type="radio" name="type" id="" />AmEx</li>
+                    <legend id="card">Card Type</legend>
+                    <ol class="horizontal">
                       <li>
-                        <input type="radio" name="type" id="" />Mastercard
+                        <input type="radio" name="type" id="visa" /><label
+                          for="visa"
+                          ><img
+                            src="img/visa.png"
+                            alt="the logo of visa card."
+                            width="30px"
+                          />
+                          VISA</label
+                        >
+                      </li>
+                      <li>
+                        <input type="radio" name="type" id="amex" /><label
+                          for="amex"
+                          ><img
+                            src="img/AmEx.png"
+                            alt="the logo of amex card."
+                            width="30px"
+                          />AmEX</label
+                        >
+                      </li>
+                      <li>
+                        <input type="radio" name="type" id="mastercard" /><label
+                          for="mastercard"
+                          ><img
+                            src="img/mastercard.webp"
+                            alt="the logo of mastercard card."
+                            width="30px"
+                          />Mastercard</label
+                        >
                       </li>
                     </ol>
                   </fieldset>
@@ -107,25 +140,32 @@
             <div id="Card_number">
               <li>
                 <label for="card_number"> Card_number</label>
-                <input type="number" min="0" />
+                <input type="number" min="0" name="position" />
               </li>
             </div>
             <div id="Security_code">
               <li>
                 <label for="Security_code">Security Code</label>
-                <input type="number" min="0" />
+                <input type="number" min="0" name="position" />
               </li>
             </div>
             <div id="Name_on_Card">
               <li>
                 <label for="Name_on_Card">Name on card</label>
-                <input type="text" placeholder="Exact name as on the card" />
+                <input
+                  type="text"
+                  placeholder="Exact name as on the card"
+                  name="position"
+                />
               </li>
             </div>
           </ol>
         </fieldset>
-        <fieldset>
-          <button>Buy It</button>
+        <fieldset id="last">
+          <!-- <button>Buy It</button> -->
+          <div class="button">
+            <a href="#" class="btn">Buy it</a>
+          </div>
         </fieldset>
       </form>
     </div>
